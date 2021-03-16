@@ -15,7 +15,7 @@ if not exist "%1.out" (
 	goto done
 )
 
-fc "%1.out" nullout /n /w /a > errlog
+fc "%1.out" nullout /n /w /a > errlog REM  Idk does /w improve the checking or not
 
 if errorlevel 1 (
 	echo Expected:
@@ -23,7 +23,6 @@ if errorlevel 1 (
 	echo.
 	echo Log:
 	type errlog
-	echo.
 	echo WRONG ANSWER
 ) else (
 	echo CORRECT ANSWER
