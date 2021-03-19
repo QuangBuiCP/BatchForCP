@@ -1,5 +1,11 @@
 @echo off
 echo.
+
+if not exist "%1.in" (
+	catin %1 run
+)
+
+:continue
 echo Input:
 type "%1.in"
 
@@ -15,7 +21,7 @@ if not exist "%1.out" (
 	goto done
 )
 
-fc "%1.out" nullout /n /w /a > errlog REM  Idk does /w improve the checking or not
+fc "%1.out" nullout /n /w /a > errlog 
 
 if errorlevel 1 (
 	echo Expected:
