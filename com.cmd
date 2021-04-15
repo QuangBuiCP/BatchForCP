@@ -8,6 +8,11 @@ echo.
 
 if errorlevel 1 (
 	echo Compilation failed
-) else (
-	echo Compilation finished successfully
+	exit /b 1
+)
+echo Compilation finished successfully
+echo.
+
+if %2==redo (
+	run %1
 )

@@ -11,8 +11,9 @@ type "%1.in"
 
 echo.
 echo Output:
+"%1.exe" < "%1.in"
 "%1.exe" < "%1.in" > nullout
-type nullout
+rem type nullout
 
 echo.
 
