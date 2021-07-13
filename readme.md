@@ -5,7 +5,10 @@
 The purpose of this project is to support the competitive programmer who is using Window to compile, run, ... source file.
 This is also included for who is using [Command prompt](https://en.wikipedia.org/wiki/Cmd.exe)
 
-The project mainly support for [C++](https://en.wikipedia.org/wiki/C++) (`*.cpp`) users.
+This project mainly supports [C++](https://en.wikipedia.org/wiki/C++) 
+source files (`*.cpp`) and will only be of use for C++ programmers. 
+
+You can edit the file locally in order to work with other languages
 
 **This readme.md is currently tutorial for Window 10 users! The syntax of the commands is still the same for Window 7+ users.** 
 
