@@ -61,7 +61,7 @@ For example, I want to download at **D:\BatchFile**. It should appear like this:
 D:\BatchFile>
 ```
 
-**If you don't know how to go to the location that you want to isntall, 
+**If you don't know how to go to the location that you want to install, 
 you can [see this blog](https://www.thewindowsclub.com/how-to-open-command-prompt-from-right-click-menu)**
 
 After you're done, type in `git clone https://github.com/QuangBuiYT/BatchForCP.git`. It should be like this:
